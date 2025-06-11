@@ -1,0 +1,57 @@
+.Meow {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    text-align: left;
+    margin: 24px;
+    font-family:'Trebuchet MS'
+}
+
+.event-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.event-info {
+    color: black;
+    padding: 16px;
+    border-radius: 10px;
+    width: 750px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.event-image {
+    object-fit: contain;
+    max-width: 75%;
+    max-height: 75%;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.event-image img {
+    max-height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.Meow h1 {
+    margin: 8px 0;
+}
+.Meow h2 {
+    margin: 15px 0;
+}
+.Meow p {
+    text-decoration: none;
+    max-width: 650px;
+    flex-wrap: wrap;
+}
